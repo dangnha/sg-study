@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.border-img {
+  width: 500px;
+  height: 500px;
+  border: 5px solid #000;
+  margin: 100px auto;
+  position: relative;
+}
+
+.border-img > img {
+  max-width: 94%;
+  max-height: 94%;
+  position: absolute;
+  top: 3%;
+  left: 3%;
+}
